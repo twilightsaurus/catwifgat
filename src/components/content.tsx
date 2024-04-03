@@ -6,7 +6,7 @@ import { Link } from '@mui/material';
 export const Content = () => {
   return (
     <section className='content'>
-      <div className='content-row'>
+      <div className='content-row main-row'>
         <img src={gat} alt='CatWifGat' className='gat' />
         <div className='row-section'>
           <p className='intro'>

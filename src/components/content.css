@@ -21,6 +21,16 @@
   justify-content: center;
 }
 
+@media (max-width: 948px) {
+  .main-row {
+    flex-direction: column;
+  }
+
+  .row-section {
+    margin: 2rem 0;
+  }
+}
+
 .brick-row {
   flex: 1;
   background-image: url('../assets/brick-wall.jpg');
@@ -57,7 +67,7 @@
 .gat {
   width: 40vh;
   height: 40vh;
-  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.401));
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
 }
 
 .ca {
@@ -65,7 +75,7 @@
   font-family: 'Patrick Hand', cursive;
   font-weight: 400;
   font-style: normal;
-  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.401));
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
 }
 
 .ca:hover {

@@ -24,7 +24,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  font-size: 1.1vw;
+  font-size: calc((1.1vw + 1.6vh) / 2);
 }
 
 h1 {
