@@ -10,8 +10,9 @@ export const Content = () => {
         <img src={gat} alt='CatWifGat' className='gat' />
         <div className='row-section'>
           <p className='intro'>
-            CatWifGat is a bad mfer out to get all the other cats on solana and
-            show them who's the undisputed boss on the blockchain.
+            CatWifGat is a bad meowdafucka on a mission: To end the Cat meta on
+            Solana once and for all. There can only be one boss on this
+            blockchain, and he's got a Gat.
           </p>
           <div className='socials'>
             <Link href='https://raydium.io/swap/?outputCurrency=F5TsLYZkx5ivspQd2K7j9tQAfiQ7Y9qdxFsDkwEw5MeV'>
