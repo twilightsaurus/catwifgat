@@ -1,0 +1,73 @@
+.content {
+  flex: 2 0 66%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.content-row {
+  padding: 0 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.brick-row {
+  flex: 1;
+  background-image: url('../assets/brick-wall.jpg');
+  background-size: 600px;
+}
+
+.intro {
+  max-width: 75%;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  margin: auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.link {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  padding: 4px 16px;
+}
+
+.gat {
+  width: 40vh;
+  height: 40vh;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.401));
+}
+
+.ca {
+  font-size: 1.5em;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.401));
+}
+
+.ca:hover {
+  color: white;
+}
