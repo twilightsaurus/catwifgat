@@ -24,7 +24,7 @@ export const Content = () => {
                 color='primary'
               />
             </Link>
-            <Link className='link-icon x' href='https://x.com/catwifgatsol'>
+            <Link className='link-icon x' href='https://x.com/catwifgatdev'>
               <X
                 sx={{ width: '50px', height: '50px', marginLeft: '2em' }}
                 color='primary'
